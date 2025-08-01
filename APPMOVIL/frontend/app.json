@@ -1,0 +1,36 @@
+{
+  "expo": {
+    "name": "AquaSense",
+    "icon": "./assets/icon.png",
+    "slug": "AquaSense",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "edgeToEdgeEnabled": true,
+      "package": "com.rivasgregorio.AquaSense"
+    },
+    "web": {
+      "favicon": "./assets/icon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "f94c54fa-967e-44f2-909b-a896d83d7711"
+      }
+    },
+    "owner": "rivasgregorio"
+  }
+}
