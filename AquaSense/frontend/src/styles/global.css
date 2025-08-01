@@ -1,0 +1,30 @@
+:root {
+  --color-bg: #E0E0E0;          /* fondo gris claro */
+  --color-text: #FFFFFF;        /* texto blanco */
+  --color-primary-dark: #003B73; /* azul oscuro */
+  --color-primary: #00A8E8;     /* azul celeste */
+  --color-accent: #44E0D0;      /* turquesa claro */
+  --color-link: #00A8E8;        /* azul celeste para links */
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+a {
+  color: var(--color-link);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: var(--color-accent);
+}
+.dashboard-container {
+  background-color: var(--color-bg);
+  color: var(--color-primary-dark);
+  min-height: 100vh;
+}
